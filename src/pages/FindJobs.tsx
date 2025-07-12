@@ -1,3 +1,5 @@
+
+
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import JobCard from "../components/JobCard";
@@ -63,3 +65,4 @@ const FindJobs = () => {
 };
 
 export default FindJobs;
+

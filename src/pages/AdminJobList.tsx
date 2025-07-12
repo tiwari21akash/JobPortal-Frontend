@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BASE_URL from "../config";
 
 interface Job {
   id: number;
@@ -7,19 +8,31 @@ interface Job {
   description: string;
   location: string;
   company: string;
+  active: boolean;
 }
 
 const AdminJobList: React.FC = () => {
   const [jobs, setJobs] = useState<Job[]>([]);
   const [editingJob, setEditingJob] = useState<Job | null>(null);
 
+
   const fetchJobs = async () => {
-    const res = await axios.get("/api/jobs~");
-    setJobs(res.data);
+    try {
+      const res = await axios.get(`${BASE_URL}/jobs`);
+      setJobs(res.data);
+    } catch (error) {
+      setJobs([]);
+      // Optionally handle error
+    }
+  };
+
+  const handleToggleActive = async (job: Job) => {
+    await axios.patch(`${BASE_URL}/jobs/${job.id}`, { active: !job.active });
+    fetchJobs();
   };
 
   const handleDelete = async (id: number) => {
-    await axios.delete(`/api/jobs/${id}`);
+    await axios.delete(`${BASE_URL}/jobs/${id}`);
     fetchJobs();
   };
 
@@ -29,7 +42,7 @@ const AdminJobList: React.FC = () => {
 
   const handleUpdate = async () => {
     if (editingJob) {
-      await axios.put(`/api/jobs/${editingJob.id}`, editingJob);
+      await axios.put(`${BASE_URL}/jobs/${editingJob.id}`, editingJob);
       setEditingJob(null);
       fetchJobs();
     }
@@ -45,6 +58,17 @@ const AdminJobList: React.FC = () => {
 
       {jobs.map((job) => (
         <div key={job.id} className="border p-4 rounded-lg mb-4 shadow-sm">
+          <div className="flex items-center justify-between mb-2">
+            <span className={`text-xs font-bold px-3 py-1 rounded-full ${job.active ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-600'}`}>
+              {job.active ? 'Active' : 'Inactive'}
+            </span>
+            <button
+              className={`px-3 py-1 rounded-full text-xs font-semibold border ${job.active ? 'border-green-500 text-green-700 hover:bg-green-50' : 'border-gray-400 text-gray-600 hover:bg-gray-100'}`}
+              onClick={() => handleToggleActive(job)}
+            >
+              {job.active ? 'Set Inactive' : 'Set Active'}
+            </button>
+          </div>
           {editingJob?.id === job.id ? (
             <>
               <input

@@ -50,7 +50,7 @@ const JobCategoriesSection: React.FC = () => {
             description={cat.description}
             icon={cat.icon}
             onClick={() => alert(`${cat.title} clicked`)}
-          />
+          /> 
         ))}
       </div>
     </section>
