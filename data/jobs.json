@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "jobType": "Full-time",
+    "companyName": "Tech Solutions Inc.",
+    "skills": ["JavaScript", "React", "Node.js"],
+    "locations": ["New York", "Remote"],
+    "description": "We are looking for a Software Engineer to join our team.",
+    "applyLink": "https://www.youtube.com/@codeforcoder/videos"
+  },
+  {
+    "id": "2",
+    "title": "Data Scientist",
+    "jobType": "Part-time",
+    "companyName": "Data Insights LLC",
+    "skills": ["Python", "Machine Learning", "SQL"],
+    "locations": ["San Francisco", "Remote"],
+    "description": "Join us as a Data Scientist to analyze and interpret complex data.",
+    "applyLink": "https://example.com/apply/2"
+  }
+]
