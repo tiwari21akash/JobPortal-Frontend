@@ -36,14 +36,14 @@ export default function Navbar() {
     const baseClasses = "transition duration-300 font-medium";
     const activeClasses = "text-yellow-400";
     const inactiveClasses = "hover:text-yellow-400";
-    
-    return isActive(path) 
-      ? `${baseClasses} ${activeClasses}` 
+
+    return isActive(path)
+      ? `${baseClasses} ${activeClasses}`
       : `${baseClasses} ${inactiveClasses}`;
   };
 
   return (
-    <nav className="flex justify-center items-center p-4 bg-gray-900 text-white relative sticky top-0 z-50 shadow-lg">
+    <nav className="flex justify-center items-center p-4 bg-gray-900 text-white sticky top-0 z-50 shadow-lg">
       {/* Logo Section */}
       <div className="flex items-center space-x-2 top-2 absolute left-4">
         <Link to="/">
