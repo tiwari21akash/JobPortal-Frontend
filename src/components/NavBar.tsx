@@ -22,9 +22,9 @@ function NavButton({ to, children, variant = 'yellow' }: NavButtonProps) {
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-900 text-white">
+    <nav className="flex justify-center items-center p-4 bg-gray-900 text-white relative">
       {/* Logo Section */}
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-2 top-2 absolute left-4">
         <Link to="/">
           <img src={logo} alt="Logo" className="h-10" />
         </Link>
@@ -32,7 +32,7 @@ export default function Navbar() {
       </div>
 
       {/* Navigation Links */}
-      <ul className="flex space-x-6 items-center">
+      <ul className="flex space-x-6 items-center justify-center">
         <li>
           <Link to="/" className="hover:text-yellow-400 transition duration-300 font-medium">
             Home
@@ -43,23 +43,23 @@ export default function Navbar() {
             Jobs
           </Link>
         </li>
-        <li>
+        {/* <li>
           <NavButton to="/admin/post-job" variant="gray">Post Job</NavButton>
         </li>
         <li>
           <NavButton to="/admin/jobs" variant="gray">Manage Jobs</NavButton>
-        </li>
+        </li> */}
         <li>
           <Link to="/about" className="hover:text-yellow-400 transition duration-300 font-medium">
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <NavButton to="/login">Login</NavButton>
         </li>
         <li>
           <NavButton to="/register">Register</NavButton>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

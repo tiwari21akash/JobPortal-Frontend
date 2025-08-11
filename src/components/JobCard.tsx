@@ -8,7 +8,7 @@ type Job = {
   salary: string;
   skills: string[];
   jobType: string;
-  applyLink: string;
+  
 };
 
 const JobCard = ({ job }: { job: Job }) => {
@@ -37,12 +37,12 @@ const JobCard = ({ job }: { job: Job }) => {
 
       {/* Right Section - View Button */}
       <div className="flex-shrink-">
-        <a target="_blank"
-          href={job.applyLink} 
+        <Link
+          to={`/jobs/${job.id}`}
           className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
         >
           View Job
-        </a>
+        </Link>
       </div>
     </div>
   );

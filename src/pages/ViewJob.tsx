@@ -1,32 +1,22 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
-import BASE_URL from "../config";
 import JobDetailCard from "../components/JobDetailCard";
+import { useJobsStore } from "@/store/useJobsStore";
+import type { Job } from "@/lib/types";
 
 const ViewJob = () => {
   const { jobId } = useParams();
-  const [job, setJob] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const jobs = useJobsStore((state) => state.jobs);
+  const [job, setJob] = useState<Job | null>(null);
+  const getJobById = useJobsStore((state) => state.getJobById);
 
   useEffect(() => {
-    const fetchJob = async () => {
-      try {
-        const response = await axios.get(`${BASE_URL}/jobs/${jobId}`);
-        if (response.data?.status === "success") {
-          setJob(response.data.data);
-        }
-      } catch (error) {
-        console.error("Error fetching job:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
+    if (!jobId) return;
+    const job = getJobById(jobId)
+    setJob(job ?? null);
+  }, [jobId, jobs]);
 
-    fetchJob();
-  }, [jobId]);
-
-  if (loading) return <p className="text-center mt-10 text-gray-500">Loading job details...</p>;
+  // if (loading) return <p className="text-center mt-10 text-gray-500">Loading job details...</p>;
 
   if (!job) return <p className="text-center mt-10 text-red-500">Job not found.</p>;
 

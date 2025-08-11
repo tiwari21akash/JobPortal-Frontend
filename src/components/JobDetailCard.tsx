@@ -1,18 +1,7 @@
+import type { Job } from "@/lib/types";
+import { Link } from "react-router-dom";
 type JobDetailCardProps = {
-  job: {
-    id: string;
-    title: string;
-    category: string;
-    jobType: string;
-    description: string;
-    responsibilities: string;
-    qualifications: string;
-    applyLink: string;
-    companyName: string;
-    skills: string[];
-    locations: string[];
-    createdAt: string;
-  };
+  job: Job
 };
 
 const JobDetailCard = ({ job }: JobDetailCardProps) => {
@@ -65,7 +54,13 @@ const JobDetailCard = ({ job }: JobDetailCardProps) => {
 
       <hr />
 
-      <div>
+      <div className="flex justify-end items-center">
+        <Link
+          to="/find-jobs"
+          className="inline-block bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300 transition mr-4"
+        >
+          Back to Jobs
+        </Link>
         <a
           href={job.applyLink}
           className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
