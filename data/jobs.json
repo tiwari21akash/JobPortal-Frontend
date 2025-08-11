@@ -1,22 +1,102 @@
 [
   {
-    "id": "1",
-    "title": "Software Engineer",
+    "id": "3",
+    "title": "Frontend Developer",
     "jobType": "Full-time",
-    "companyName": "Tech Solutions Inc.",
-    "skills": ["JavaScript", "React", "Node.js"],
-    "locations": ["New York", "Remote"],
-    "description": "We are looking for a Software Engineer to join our team.",
-    "applyLink": "https://www.youtube.com/@codeforcoder/videos"
+    "companyName": "WebCraft Studios",
+    "skills": ["Vue.js", "TypeScript", "CSS", "HTML"],
+    "locations": ["Austin", "Remote"],
+    "description": "Looking for a creative Frontend Developer to build stunning user interfaces.",
+    "applyLink": "https://example.com/apply/3"
   },
   {
-    "id": "2",
-    "title": "Data Scientist",
+    "id": "4",
+    "title": "DevOps Engineer",
+    "jobType": "Full-time",
+    "companyName": "CloudFirst Technologies",
+    "skills": ["Docker", "Kubernetes", "AWS", "CI/CD"],
+    "locations": ["Seattle", "Remote"],
+    "description": "Join our team to streamline deployment processes and manage cloud infrastructure.",
+    "applyLink": "https://example.com/apply/4"
+  },
+  {
+    "id": "5",
+    "title": "UX Designer",
+    "jobType": "Contract",
+    "companyName": "Design Innovations Co.",
+    "skills": ["Figma", "User Research", "Prototyping", "Adobe Creative Suite"],
+    "locations": ["Los Angeles", "Hybrid"],
+    "description": "Create exceptional user experiences for our digital products.",
+    "applyLink": "https://example.com/apply/5"
+  },
+  {
+    "id": "6",
+    "title": "Backend Developer",
+    "jobType": "Full-time",
+    "companyName": "API Masters Ltd.",
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "Redis"],
+    "locations": ["Chicago", "Remote"],
+    "description": "Build scalable backend systems and RESTful APIs for our platform.",
+    "applyLink": "https://example.com/apply/6"
+  },
+  {
+    "id": "7",
+    "title": "Mobile App Developer",
     "jobType": "Part-time",
-    "companyName": "Data Insights LLC",
-    "skills": ["Python", "Machine Learning", "SQL"],
-    "locations": ["San Francisco", "Remote"],
-    "description": "Join us as a Data Scientist to analyze and interpret complex data.",
-    "applyLink": "https://example.com/apply/2"
+    "companyName": "MobileTech Solutions",
+    "skills": ["React Native", "Swift", "Kotlin", "Firebase"],
+    "locations": ["Miami", "Remote"],
+    "description": "Develop cross-platform mobile applications for iOS and Android.",
+    "applyLink": "https://example.com/apply/7"
+  },
+  {
+    "id": "8",
+    "title": "Machine Learning Engineer",
+    "jobType": "Full-time",
+    "companyName": "AI Innovations Corp",
+    "skills": ["TensorFlow", "PyTorch", "Python", "MLOps"],
+    "locations": ["Boston", "Hybrid"],
+    "description": "Design and implement machine learning models for production systems.",
+    "applyLink": "https://example.com/apply/8"
+  },
+  {
+    "id": "9",
+    "title": "Cybersecurity Analyst",
+    "jobType": "Full-time",
+    "companyName": "SecureNet Systems",
+    "skills": ["Network Security", "Penetration Testing", "SIEM", "Incident Response"],
+    "locations": ["Washington DC", "On-site"],
+    "description": "Protect our organization from cyber threats and security vulnerabilities.",
+    "applyLink": "https://example.com/apply/9"
+  },
+  {
+    "id": "10",
+    "title": "Product Manager",
+    "jobType": "Full-time",
+    "companyName": "StartupXYZ",
+    "skills": ["Product Strategy", "Agile", "Market Research", "Analytics"],
+    "locations": ["San Diego", "Hybrid"],
+    "description": "Lead product development and strategy for our growing tech startup.",
+    "applyLink": "https://example.com/apply/10"
+  },
+  {
+    "id": "11",
+    "title": "Quality Assurance Engineer",
+    "jobType": "Contract",
+    "companyName": "TestPro Solutions",
+    "skills": ["Selenium", "Jest", "Manual Testing", "API Testing"],
+    "locations": ["Denver", "Remote"],
+    "description": "Ensure software quality through comprehensive testing strategies.",
+    "applyLink": "https://example.com/apply/11"
+  },
+  {
+    "id": "12",
+    "title": "Database Administrator",
+    "jobType": "Full-time",
+    "companyName": "DataVault Inc.",
+    "skills": ["MySQL", "MongoDB", "Database Optimization", "Backup & Recovery"],
+    "locations": ["Phoenix", "On-site"],
+    "description": "Manage and optimize database systems for high-performance applications.",
+    "applyLink": "https://example.com/apply/12"
   }
 ]
