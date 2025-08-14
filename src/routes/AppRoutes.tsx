@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import FindJobs from "../pages/FindJobs";
+import Learning from "../pages/Learning";
 import Home from "../pages/Home";
 import ViewJob from "../pages/ViewJob";
 import AdminPostJob from '../pages/AdminPostJob';
@@ -12,6 +13,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/find-jobs" element={<FindJobs />} />
+          <Route path="/learning" element={<Learning />} />
       <Route path="/login" element={<LoginCard />} />
       <Route path="/register" element={<RegisterCard />} />
       <Route path="/jobs/:jobId" element={<ViewJob />} />

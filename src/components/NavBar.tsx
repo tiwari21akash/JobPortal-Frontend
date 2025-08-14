@@ -55,7 +55,7 @@ export default function Navbar() {
       {/* Navigation Links */}
       <ul className="flex space-x-6 items-center justify-center">
         <li>
-          <Link to="/" className={getLinkClasses('/')}>
+          <Link to="/" className={getLinkClasses('/')}> 
             Home
           </Link>
         </li>
@@ -64,23 +64,16 @@ export default function Navbar() {
             Jobs
           </Link>
         </li>
-        {/* <li>
-          <NavButton to="/admin/post-job" variant="gray">Post Job</NavButton>
-        </li>
         <li>
-          <NavButton to="/admin/jobs" variant="gray">Manage Jobs</NavButton>
-        </li> */}
+          <Link to="/learning" className={getLinkClasses('/learning')}>
+            Learning
+          </Link>
+        </li>
         <li>
           <Link to="/about" className={getLinkClasses('/about')}>
             About
           </Link>
         </li>
-        {/* <li>
-          <NavButton to="/login">Login</NavButton>
-        </li>
-        <li>
-          <NavButton to="/register">Register</NavButton>
-        </li> */}
       </ul>
     </nav>
   );

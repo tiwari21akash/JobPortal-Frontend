@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "System Design",
+    "description": "Master the principles of scalable system architecture and design patterns.",
+  "image": "/system-design-icon.png"
+  },
+  {
+    "id": "2",
+    "title": "DSA",
+    "description": "Sharpen your skills in Data Structures and Algorithms for coding interviews.",
+  "image": "/dsa-icon.png"
+  }
+]
