@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 
+import React from "react";
+
 interface JobCategoryCardProps {
   title: string;
   description: string;
-  icon?: string;
+  icon?: React.ReactNode;
 }
 
 const JobCategoryCard: React.FC<JobCategoryCardProps> = ({ title, description, icon }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import JobCategoryCard from "./JobCategoryCard";
-import { FaCode, FaDatabase, FaCloud, FaPaintBrush, FaShieldAlt, FaUserTie } from "react-icons/fa";
+import { FaCode, FaDatabase, FaCloud } from "react-icons/fa";
 
 const categories = [
   {
