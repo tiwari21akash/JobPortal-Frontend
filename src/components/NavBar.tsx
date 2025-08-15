@@ -2,23 +2,23 @@ import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/techjobcareer.png';
 
 // Reusable nav button styled like login card
-type NavButtonProps = {
-  to: string;
-  children: React.ReactNode;
-  variant?: 'yellow' | 'gray';
-};
+// type NavButtonProps = {
+//   to: string;
+//   children: React.ReactNode;
+//   variant?: 'yellow' | 'gray';
+// };
 
-function NavButton({ to, children, variant = 'yellow' }: NavButtonProps) {
-  const base = "px-6 py-2 rounded-full font-semibold transition mx-1 border";
-  const yellow = "border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-[#192235]";
-  const gray = "border-gray-800 text-white bg-gray-800 hover:bg-gray-700 hover:text-white";
-  const style = variant === 'gray' ? `${base} ${gray}` : `${base} ${yellow}`;
-  return (
-    <Link to={to} className={style}>
-      {children}
-    </Link>
-  );
-}
+// function NavButton({ to, children, variant = 'yellow' }: NavButtonProps) {
+//   const base = "px-6 py-2 rounded-full font-semibold transition mx-1 border";
+//   const yellow = "border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-[#192235]";
+//   const gray = "border-gray-800 text-white bg-gray-800 hover:bg-gray-700 hover:text-white";
+//   const style = variant === 'gray' ? `${base} ${gray}` : `${base} ${yellow}`;
+//   return (
+//     <Link to={to} className={style}>
+//       {children}
+//     </Link>
+//   );
+// }
 
 export default function Navbar() {
   const location = useLocation();
