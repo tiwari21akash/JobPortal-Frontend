@@ -6,7 +6,7 @@ const FindJobs = () => {
   const jobs = useJobsStore((state) => state.jobs);
 
   return (
-    <div className="py-8 px-4">
+    <div className="bg-gray-100 py-8 px-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Available Jobs</h1>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {jobs.map((job) => (

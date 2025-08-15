@@ -5,6 +5,8 @@ import { useEffect } from "react";
 import axios from "axios";
 import { useJobsStore } from "./store/useJobsStore";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   const setJobs = useJobsStore((state) => state.setJobs);
 
@@ -32,6 +34,7 @@ function App() {
       </main>
 
       <Footer />
+  <Analytics />
     </div>
   );
 }
