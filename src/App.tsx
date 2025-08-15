@@ -12,7 +12,6 @@ function App() {
     const fetchJobs = async () => {
       try {
         const response = await axios.get(`https://raw.githubusercontent.com/tiwari21akash/JobPortal-Frontend/refs/heads/main/data/jobs.json`);
-        // https://raw.githubusercontent.com/tiwari21akash/JobPortal-Frontend/refs/heads/main/data/jobs.json
         console.log("jobs", response.data);
         if (response.data) {
           setJobs(response.data);

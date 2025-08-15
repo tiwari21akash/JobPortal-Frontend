@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Java",
+    "type": "text",
+    "content": "Java is a high-level, class-based, object-oriented programming language..."
+  },
+  {
+    "id": 2,
+    "title": "Java Syntax Example",
+    "type": "code",
+    "content": "public class HelloWorld {\n  public static void main(String[] args) {\n    System.out.println(\"Hello, World!\");\n  }\n}"
+  },
+  {
+    "id": 3,
+    "title": "Java Variables",
+    "type": "text",
+    "content": "Variables are containers for storing data values in Java."
+  },
+  {
+    "id": 4,
+    "title": "Java Image Example",
+    "type": "image",
+    "content": "/assets/JavaLogo.png"
+  },
+  {
+    "id": 5,
+    "title": "Java Video Tutorial",
+    "type": "video",
+    "content": "https://www.youtube.com/embed/GoXwIVyNvX0"
+  },
+  {
+    "id": 6,
+    "title": "Java Features",
+    "type": "list",
+    "content": [
+      "Object-Oriented",
+      "Platform Independent",
+      "Simple and Secure",
+      "Robust and Portable"
+    ]
+  }
+]

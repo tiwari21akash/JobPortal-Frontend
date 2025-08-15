@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import LearningTopicCard from "../components/LearningTopicCard";
+import { useNavigate } from "react-router-dom";
 
 interface Topic {
   id: string;
@@ -17,8 +18,10 @@ const Learning: React.FC = () => {
       .then((data) => setTopics(data));
   }, []);
 
+  const navigate = useNavigate();
+
   return (
-  <div className="bg-gray-100 py-16 px-4 min-h-screen">
+    <div className="bg-gray-100 py-16 px-4 min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-center">Learning Topics</h1>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {topics.map((topic) => (
@@ -27,6 +30,7 @@ const Learning: React.FC = () => {
             title={topic.title}
             description={topic.description}
             image={topic.image}
+            onClick={() => navigate(`/learning/${topic.id}`)}
           />
         ))}
       </div>
