@@ -20,8 +20,11 @@ import logo from '../assets/techjobcareer.png';
 //   );
 // }
 
+import { useState } from 'react';
+
 export default function Navbar() {
   const location = useLocation();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // Helper function to check if the current path matches the link
   const isActive = (path: string) => {
@@ -43,38 +46,53 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-center items-center p-4 bg-gray-900 text-white sticky top-0 z-50 shadow-lg">
-      {/* Logo Section */}
-      <div className="flex items-center space-x-2 top-2 absolute left-4">
-        <Link to="/">
-          <img src={logo} alt="Logo" className="h-10" />
-        </Link>
-        <span className="font-bold text-xl">TechJobCareer</span>
-      </div>
+    <nav className="bg-gray-900 text-white sticky top-0 z-50 shadow-lg">
+      <div className="max-w-7xl mx-auto flex items-center justify-between p-4 relative">
+        {/* Logo Section */}
+        <div className="flex items-center space-x-2">
+          <Link to="/">
+            <img src={logo} alt="Logo" className="h-10" />
+          </Link>
+          <span className="font-bold text-xl">TechJobCareer</span>
+        </div>
 
-      {/* Navigation Links */}
-      <ul className="flex space-x-6 items-center justify-center">
-        <li>
-          <Link to="/" className={getLinkClasses('/')}> 
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/find-jobs" className={getLinkClasses('/find-jobs')}>
-            Jobs
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" className={getLinkClasses('/about')}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact" className={getLinkClasses('/contact')}>
-            Contact Us
-          </Link>
-        </li>
-      </ul>
+        {/* Hamburger Icon for Mobile */}
+        <button
+          className="md:hidden flex items-center px-3 py-2 border rounded text-yellow-400 border-yellow-400 hover:bg-yellow-400 hover:text-[#192235] transition"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation menu"
+        >
+          <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+
+        {/* Navigation Links */}
+        <ul
+          className={`md:flex space-x-6 items-center justify-center absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent transition-all duration-300 z-40 ${menuOpen ? 'block' : 'hidden'} md:block`}
+        >
+          <li className="my-2 md:my-0">
+            <Link to="/" className={getLinkClasses('/')} onClick={() => setMenuOpen(false)}>
+              Home
+            </Link>
+          </li>
+          <li className="my-2 md:my-0">
+            <Link to="/find-jobs" className={getLinkClasses('/find-jobs')} onClick={() => setMenuOpen(false)}>
+              Jobs
+            </Link>
+          </li>
+          <li className="my-2 md:my-0">
+            <Link to="/about" className={getLinkClasses('/about')} onClick={() => setMenuOpen(false)}>
+              About
+            </Link>
+          </li>
+          <li className="my-2 md:my-0">
+            <Link to="/contact" className={getLinkClasses('/contact')} onClick={() => setMenuOpen(false)}>
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }

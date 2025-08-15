@@ -7,8 +7,10 @@ type JobDetailCardProps = {
 const JobDetailCard = ({ job }: JobDetailCardProps) => {
   return (
     <div className="bg-white border border-gray-300 rounded-lg p-6 shadow-md hover:shadow-lg transition-all space-y-6">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2 md:gap-4 w-full">
+        <h1 className="text-3xl font-bold break-words md:truncate flex-1 min-w-0">{job.title}</h1>
+      </div>
       <div>
-        <h1 className="text-3xl font-bold">{job.title}</h1>
         <p className="text-lg text-gray-700">{job.companyName}</p>
         <p className="text-sm text-gray-500">{job.locations.join(", ")}</p>
       </div>
@@ -16,6 +18,9 @@ const JobDetailCard = ({ job }: JobDetailCardProps) => {
       <div className="flex gap-3">
         <span className="inline-block bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">{job.category}</span>
         <span className="inline-block bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">{job.jobType}</span>
+        {job.salary && (
+          <span className="inline-block bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full font-semibold">💰 {job.salary}</span>
+        )}
       </div>
 
       <hr />
@@ -67,7 +72,7 @@ const JobDetailCard = ({ job }: JobDetailCardProps) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          🚀 Apply Now
+          Apply
         </a>
       </div>
     </div>

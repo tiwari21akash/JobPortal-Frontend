@@ -18,10 +18,12 @@ const JobCard = ({ job }: { job: Job }) => {
       <div className="flex-1 pr-4">
         <h2 className="text-xl font-bold text-gray-800">{job.title}</h2>
         <p className="text-gray-600">{job.company} – {job.location}</p>
-        <p className="text-green-600 mt-2">💰 {job.salary}</p>
-        <span className="inline-block bg-purple-100 text-purple-700 text-sm font-medium px-3 py-1 mt-2 rounded-full">
-          {job.jobType}
-        </span>
+        <div className="flex items-center gap-4 mt-2">
+          <span className="text-green-600">💰 {job.salary}</span>
+          <span className="inline-block bg-purple-100 text-purple-700 text-sm font-medium px-3 py-1 rounded-full">
+            {job.jobType}
+          </span>
+        </div>
         {/* Show only first 3 skills */}
         <div className="mt-3 flex flex-wrap gap-2">
           {job.skills.slice(0, 3).map((skill, index) => (
