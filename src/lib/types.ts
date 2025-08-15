@@ -10,4 +10,5 @@ export type Job = {
     category?: string;
     responsibilities?: string;
     qualifications?: string;
+    salary?: string;
 };
