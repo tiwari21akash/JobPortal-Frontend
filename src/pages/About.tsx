@@ -20,7 +20,7 @@ const About: React.FC = () => (
             <div className="flex-1 flex justify-center items-center">
                 {/* Replace src with your own SVG or PNG illustration */}
                 <div className="rounded-2xl border-4 border-yellow-400 p-2 bg-white">
-                    <img src="/src/assets/about-team.png" alt="Team" className="w-full max-w-xs md:max-w-sm rounded-xl" />
+                    <img src="/about-team.png" alt="Team" className="w-full max-w-xs md:max-w-sm rounded-xl" />
                 </div>
             </div>
         </div>
