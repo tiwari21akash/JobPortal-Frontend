@@ -7,6 +7,10 @@ import AdminPostJob from '../pages/AdminPostJob';
 import AdminJobList from "../pages/AdminJobList";
 import LoginCard from "../components/LoginCard";
 import RegisterCard from "../components/RegisterCard";
+import ContactUs from "../pages/ContactUs";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import HelpSupport from "../pages/HelpSupport";
+import FAQs from "../pages/FAQs";
 
 const AppRoutes = () => {
   return (
@@ -19,6 +23,10 @@ const AppRoutes = () => {
       <Route path="/admin/post-job" element={<AdminPostJob />} />
       <Route path="/admin/jobs" element={<AdminJobList />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/help" element={<HelpSupport />} />
+      <Route path="/faqs" element={<FAQs />} />
     </Routes>
   );
 };

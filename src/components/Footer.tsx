@@ -1,6 +1,19 @@
-import { FaInstagram, FaYoutube, FaTelegram } from 'react-icons/fa';
+
+import { useState } from 'react';
+import { FaYoutube, FaTelegram } from 'react-icons/fa';
 
 export default function Footer() {
+  const [email, setEmail] = useState('');
+  const [success, setSuccess] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      setSuccess(true);
+      setEmail('');
+      setTimeout(() => setSuccess(false), 3000);
+    }
+  };
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="max-w-screen-xl mx-auto px-6">
@@ -8,25 +21,31 @@ export default function Footer() {
         <div className="text-center mb-8">
           <h3 className="text-2xl font-semibold mb-2">Stay Updated with Job Alerts</h3>
           <p className="text-sm mb-4">Sign up for our newsletter to get the latest job news delivered to your inbox.</p>
-          <div className="flex justify-center max-w-xs mx-auto">
+          <form className="flex justify-center max-w-xs mx-auto" onSubmit={handleSubmit}>
             <input
               type="email"
               placeholder="Enter your email"
               className="w-full p-3 rounded-l-md text-black bg-white"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              required
             />
-            <button className="bg-yellow-400 p-3 rounded-r-md hover:bg-yellow-500">
+            <button type="submit" className="bg-yellow-400 p-3 rounded-r-md hover:bg-yellow-500">
               Subscribe
             </button>
-          </div>
+          </form>
+          {success && (
+            <div className="mt-2 text-green-400">Thank you for subscribing!</div>
+          )}
         </div>
 
         {/* Footer Links */}
         <div className="flex flex-col md:flex-row justify-between mb-6">
           {/* Company Links */}
           <div className="mb-4 md:mb-0">
-            <h4 className="font-semibold text-lg mb-2">Company</h4>
+            <h4 className="font-semibold text-lg mb-2">TechJobCareer</h4>
             <ul className="space-y-2">
-              <li><a href="/about-us" className="hover:text-yellow-400">About Us</a></li>
+              <li><a href="/about" className="hover:text-yellow-400">About Us</a></li>
               <li><a href="/contact" className="hover:text-yellow-400">Contact Us</a></li>
               <li><a href="/privacy-policy" className="hover:text-yellow-400">Privacy Policy</a></li>
             </ul>
@@ -45,16 +64,16 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-2">Follow Us</h4>
             <div className="flex space-x-4">
-              {/* Instagram Icon */}
+              {/* Instagram Icon
               <a href="https://www.instagram.com" target="_blank" className="text-xl hover:text-yellow-400">
                 <FaInstagram />
-              </a>
+              </a> */}
               {/* YouTube Icon */}
-              <a href="https://www.youtube.com" target="_blank" className="text-xl hover:text-yellow-400">
+              <a href="https://www.youtube.com/@techjobcareer" target="_blank" className="text-xl hover:text-yellow-400">
                 <FaYoutube />
               </a>
               {/* Telegram Icon */}
-              <a href="https://www.telegram.org" target="_blank" className="text-xl hover:text-yellow-400">
+              <a href="t.me/techjobcareer" target="_blank" className="text-xl hover:text-yellow-400">
                 <FaTelegram />
               </a>
             </div>
@@ -63,7 +82,7 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="text-center text-sm mt-6">
-          <p>&copy; 2025 JobHook. All Rights Reserved. | Designed & Developed by Chandrabhan Maurya</p>
+          <p>&copy; 2025 TechJobCareer. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

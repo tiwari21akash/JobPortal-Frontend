@@ -10,7 +10,7 @@ const About: React.FC = () => (
                     <li>Find top tech jobs from leading companies</li>
                     <li>Access curated learning resources</li>
                     <li>Grow your skills and career</li>
-                    <li>Connect with industry experts</li>
+                    <li>Receive personalized job recommendations</li>
                     <li>Get guidance for every step of your journey</li>
                 </ul>
                 <div className="px-6 py-2 rounded-full bg-yellow-400 text-gray-900 font-semibold shadow text-center select-none cursor-default">

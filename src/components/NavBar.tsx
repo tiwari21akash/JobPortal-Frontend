@@ -64,15 +64,14 @@ export default function Navbar() {
             Jobs
           </Link>
         </li>
-        {/* <li>
-          <Link to="/learning" className={getLinkClasses('/learning')}>
-            Learning
-          </Link>
-        </li> */}
-        
         <li>
           <Link to="/about" className={getLinkClasses('/about')}>
             About
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className={getLinkClasses('/contact')}>
+            Contact Us
           </Link>
         </li>
       </ul>
