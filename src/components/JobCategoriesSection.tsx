@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useJobsStore } from "@/store/useJobsStore";
 import JobCategoryCard from "./JobCategoryCard";
 import { FaCode, FaDatabase, FaCloud } from "react-icons/fa";
 
@@ -36,6 +38,8 @@ const categories = [
 ];
 
 const JobCategoriesSection: React.FC = () => {
+  const navigate = useNavigate();
+  const setSelectedCategory = useJobsStore((state) => state.setSelectedCategory);
   return (
     <section className="bg-gray-100 py-16">
       <div className="text-center mb-10">
@@ -49,8 +53,11 @@ const JobCategoriesSection: React.FC = () => {
             title={cat.title}
             description={cat.description}
             icon={cat.icon}
-            onClick={() => alert(`${cat.title} clicked`)}
-          /> 
+            onClick={() => {
+              setSelectedCategory(cat.title);
+              navigate("/find-jobs");
+            }}
+          />
         ))}
       </div>
     </section>
