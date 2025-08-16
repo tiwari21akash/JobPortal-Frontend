@@ -12,5 +12,19 @@
     "salary": "5-6 LPA",
     "responsibilities": "Work closely with architecture and ASIC teams to develop a new SDK for next-generation ASICs, develop SDK APIs and algorithms, define and execute SDK test plans, support software integrations, prepare design documentation, and collaborate with ASIC and Optical architecture teams.",
     "qualifications": "Bachelor’s degree in Computer Engineering, Computer Science, Electrical Engineering, or a related field, 0–2 years of experience in software development in the communications industry, coding and debugging experience in C/C++ (must), experience with Linux or similar RTOS (good to have), embedded, device driver, and protocol software design experience (good to have), hands-on experience with ASIC SDK development (good to have), experience with GIGE, OTN, or DSP (optional)."
+  },
+  {
+    "id": "JR248715",
+    "title": "Associate Software Engineer (Internship Program to Full-time Employee)",
+    "jobType": "Full-time",
+    "companyName": "Kaplan, Inc.",
+    "skills": ["Java", "Python", "React", "Angular", "NodeJS", ".Net", "Salesforce Apex", "Visualforce", "Lightning", "JavaScript", "HTML", "CSS", "Shell"],
+    "locations": ["Bangalore, Karnataka, India"],
+    "description": "As an Associate Software Engineer, you will manage all phases of the software development lifecycle, including programming, testing, and documentation. You will ensure high-quality software delivery, participate in agile methodologies, and actively engage in scrum ceremonies.",
+    "applyLink": "https://kaplan.com/careers/job/JR248715",  
+    "category": "Software Jobs",
+    "salary": "5-6 LPA",
+    "responsibilities": "Understand all phases of the SDLC, program, test, and document applications, execute and troubleshoot existing code, deliver high-quality software products, write test cases, improve documentation, and participate in agile/scrum ceremonies.",
+    "qualifications": "BS/MS in Computer Science, Engineering, or a related field. Knowledge of data structures, object-oriented programming, n-tier architectures, unit testing, debugging, Agile methodology, and team development tools. Preferred: familiarity with frontend and backend technologies such as HTML, CSS, Angular, React, NodeJS, .Net, Java, Salesforce Apex, Visualforce, Lightning, JavaScript, Shell, and Python."
   }
 ]
