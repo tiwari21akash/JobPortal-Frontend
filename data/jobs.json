@@ -1,5 +1,33 @@
 [
   {
+    "id": "5",
+    "title": "Software Development Engineer - I",
+    "jobType": "Full-time",
+    "companyName": "Amazon",
+    "skills": ["Java", "C++", "Python", "Data Structures", "Algorithms", "Distributed Systems"],
+    "locations": ["Bengaluru, Karnataka, India"],
+    "description": "Amazon is seeking passionate Software Development Engineers to design, build, and scale innovative technologies across distributed computing environments. SDEs will solve complex problems, build scalable systems, and deliver impactful solutions to millions of customers worldwide.",
+    "applyLink": "https://amazon.jobs/en/jobs/2995991/software-development-engineer-i",
+    "category": "Software Jobs",
+    "responsibilities": "Collaborate with cross-disciplinary teams to design and deliver innovative products, build scalable distributed systems, create predictive solutions, design and code solutions starting from broad problems, and work in an agile environment to deliver high-quality software.",
+    "qualifications": "Currently enrolled in a Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field. Strong knowledge of OOP, algorithms, data structures, problem solving, and programming in Java, C/C++ or Python. Preferred qualifications include prior internships, experience with multi-tiered systems, optimization mathematics, and ability to articulate technical challenges.",
+    "salary": "40-45 LPA"
+  },
+  {
+    "id": "2304065",
+    "title": "Software Engineer",
+    "jobType": "Full-time",
+    "companyName": "UnitedHealth Group (Optum)",
+    "skills": ["Python", "JavaScript", "Node.js", "GitHub", "CI/CD", "Kubernetes", "AWS", "Azure", "Google Cloud", "Infrastructure as Code", "GitHub Copilot", "AI-assisted Development"],
+    "locations": ["Bangalore, Karnataka, India"],
+    "description": "Developer position for GitHub Cloud Team at Optum. This role involves building and managing GitHub Runners in Public Cloud, driving automation with IaC, applying AI-assisted development, and collaborating with cross-functional teams to improve efficiency and platform capabilities.",
+    "applyLink": "https://careers.unitedhealthgroup.com/job/22317319/software-engineer-bangalore-in/?p_sid=gfCP3Mb&p_uid=6qbSACOKWb&src=JB-22511&ss=paid&utm_campaign=india+tech&utm_content=pj_board&utm_medium=jobad&utm_source=indeed&gad_source=7&dclid=COzozsnojo8DFd6LZgId67k7cA",
+    "category": "Software Jobs",
+    "salary": "10-15 LPA",
+    "responsibilities": "Build and manage GitHub Runners in Public Cloud, create automation tools and pipelines, apply AI-assisted development techniques, prototype and validate ideas with LLM-based tools, enhance platform capabilities with RAG, MCP, and vector databases, document processes and best practices, collaborate with cross-functional teams to drive GitHub Actions adoption and training.",
+    "qualifications": "Undergraduate degree or equivalent experience, experience with cloud platforms (AWS, Azure, GCP) and Kubernetes, programming in Python, JavaScript, Node.js, understanding of Git/GitHub and CI/CD pipelines, knowledge of Infrastructure as Code, experience with GitHub Copilot or similar AI tools, ability to create effective prompts for generative models."
+  },
+  {
     "id": "1",
     "title": "Software Development Engineer",
     "jobType": "Full-time",
@@ -21,7 +49,7 @@
     "skills": ["Java", "Python", "React", "Angular", "NodeJS", ".Net", "Salesforce Apex", "Visualforce", "Lightning", "JavaScript", "HTML", "CSS", "Shell"],
     "locations": ["Bangalore, Karnataka, India"],
     "description": "As an Associate Software Engineer, you will manage all phases of the software development lifecycle, including programming, testing, and documentation. You will ensure high-quality software delivery, participate in agile methodologies, and actively engage in scrum ceremonies.",
-    "applyLink": "https://kaplan.com/careers/job/JR248715",  
+    "applyLink": "https://ghc.wd1.myworkdayjobs.com/en-US/Kaplan_Careers/job/Bangalore-KA-India/Associate-Software-Engineer--Internship-Program-to-Full-time-Employee-_JR248715-1?source=IDD",  
     "category": "Software Jobs",
     "salary": "5-6 LPA",
     "responsibilities": "Understand all phases of the SDLC, program, test, and document applications, execute and troubleshoot existing code, deliver high-quality software products, write test cases, improve documentation, and participate in agile/scrum ceremonies.",
