@@ -1,6 +1,20 @@
 [
   {
-    "id": "5",
+    "id": "6",
+    "title": "Associate Technical Support I",
+    "jobType": "Full-time",
+    "companyName": "Anthology",
+    "skills": ["Windows", "Linux", "SQL", "PowerShell", "Azure", "AWS", "Networking (TCP/IP, DNS, DHCP)", "Troubleshooting", "Ticketing Systems (ADO, Salesforce)"],
+    "locations": ["Bangalore, India", "Hybrid"],
+    "description": "Anthology is seeking a motivated Associate Technical Support I to provide first-level application and infrastructure support, document root cause analyses, and ensure smooth communication with customers. This role offers an opportunity to grow technical skills while supporting critical systems in a dynamic environment.",
+    "applyLink": "https://www.anthology.com/careers/job/4758",
+    "category": "Software Jobs",
+    "responsibilities": "Provide first-level support for applications and infrastructure, troubleshoot operating systems, networks, and applications, document root cause analyses and knowledge base articles, communicate with clients via multiple channels, participate in on-call support, proactively monitor systems, and collaborate with cross-functional teams to ensure smooth issue resolution.",
+    "qualifications": "0-2 years of experience in IT support or system administration. Familiarity with ticketing systems (ADO, Salesforce), Windows/Linux, SQL basics, PowerShell scripting, networking fundamentals, and cloud platforms (Azure, AWS). Strong communication, problem-solving, and collaboration skills required. Preferred: knowledge of VMware, Docker, CI/CD pipelines, and ITIL processes.",
+    "salary": "6-9   LPA"
+  }
+  {
+    "id": "2995991",
     "title": "Software Development Engineer - I",
     "jobType": "Full-time",
     "companyName": "Amazon",
