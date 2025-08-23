@@ -14,6 +14,20 @@
     "salary": "10-15 LPA"
   },
   {
+    "id": "8",
+    "title": "Intern",
+    "jobType": "Internship",
+    "companyName": "Data Axle",
+    "skills": ["HR", "Talent Acquisition", "Finance", "Administration", "Project Management", "MS Office", "Google Workspace", "Trello", "Jira", "Asana"],
+    "locations": ["Pune, India"],
+    "description": "Data Axle is hiring interns across HR, Talent Acquisition, Finance, Administration, and Project Management. This 6-month internship provides exposure to real-world business operations, mentorship from professionals, and opportunities for future employment consideration.",
+    "applyLink": "https://myjobs.adp.com/dataaxleindia/cx/job-details?__tx_annotation=false&rb=INDEED&reqId=5001144985700",
+    "category": "Internship",
+    "responsibilities": "Assist with HR onboarding, engagement, and database management. Support talent acquisition through job postings, resume screening, and interview coordination. Contribute to finance operations, reconciliations, and reporting. Assist with office administration, vendor coordination, and logistics. Support project management by tracking progress, documenting meetings, and managing dashboards.",
+    "qualifications": "Currently pursuing a Bachelor's or Master's degree in Business, Management, HR, Finance, or related fields. Strong communication skills, detail-oriented, eager to learn, and proficient in MS Office/Google Workspace. Available for a minimum of 6 months.",
+    "salary": "Stipend"
+  },
+  {
     "id": "4758",
     "title": "Associate Technical Support I",
     "jobType": "Full-time",
