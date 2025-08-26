@@ -1,5 +1,19 @@
 [
   {
+    "id": "9",
+    "title": "Software Development Engineer - 2025 Freshers",
+    "jobType": "Full-time",
+    "companyName": "Byteridge Software Private Limited",
+    "skills": ["Angular", "React.js", "Vue.js", "Android", "iOS", "Flutter", "React Native", ".NET", "Node.js", "Java", "Spring Boot", "MongoDB", "MySQL", "MariaDB", "Express.js", "Koa.js", "Swagger", "AI/ML", "Git", "Jenkins"],
+    "locations": ["Hyderabad, Telangana, India", "Hybrid"],
+    "description": "Byteridge is hiring 2025 B.Tech graduates as Software Development Engineers. Freshers will work on real-world projects in frontend, backend, mobile, and AI/ML technologies, gaining mentorship and hands-on experience across modern web, mobile, and cloud stacks.",
+    "applyLink": "https://byteridge.turbohire.co/job/publicjobs/BkGNuGYbjuUcHKX4RrS0%2F2l92jfB1R0XWS9rsGG3Ui2ZEqmDbB_KNWy2uF7PWavvgOSd%2FYNNL3lM9xX_hHTLqS6S9%2F60JXxstLLzAKMquaYTw51P7XuAnnLPB6_ETFY6hDcNLqhsR86qEq877wZ_cxSrmsF8KNAxXw%2F0GVdrQtPvnD_bgGM%2F5FkKgEfoVvITO4wFWgpoT_LkRJlYQnWuK2qzBt6DQ0wJ3O2xSUq95piMeGaW0mpN85kRkijdGzwp",
+    "category": "Software Development",
+    "responsibilities": "Collaborate with teams to design, develop, and maintain scalable applications. Work on frontend, backend, mobile, or AI/ML projects. Participate in code reviews, debugging, and deployment processes. Engage in real-world projects under mentorship and continuously upskill in emerging technologies.",
+    "qualifications": "B.Tech 2025 graduates in Computer Science, IT, ECE, EEE, or related fields with computer science coursework. Strong programming knowledge in frontend/backend/mobile/AI/ML stacks such as Angular, React.js, .NET, Node.js, Java, Flutter, or related technologies. Internship/project experience preferred. Strong problem-solving, communication, and teamwork skills.",
+    "salary": "10-15 LPA"
+  },
+  {
     "id": "21596",
     "title": "Associate Software Development Engineer",
     "jobType": "Full-time",
@@ -14,7 +28,7 @@
     "salary": "10-15 LPA"
   },
   {
-    "id": "8",
+    "id": "PUNE6780",
     "title": "Intern",
     "jobType": "Internship",
     "companyName": "Data Axle",
