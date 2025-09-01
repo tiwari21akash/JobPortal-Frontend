@@ -1,5 +1,19 @@
 [
   {
+    "id": "313944",
+    "title": "Software Engineer Intern",
+    "jobType": "Internship",
+    "companyName": "Cargill",
+    "skills": ["Java", "Go", "Cloud", "Big Data", "SQL", "Agile"],
+    "locations": ["Bengaluru, India"],
+    "description": "Gain real-world experience as a Software Engineer Intern with Cargill’s Digital Technology & Data team. Work on cloud platforms, big data, and application development while collaborating with global teams.",
+    "applyLink": "https://careers.cargill.com/job/313944",
+    "category": "Software Development",
+    "responsibilities": "Contribute to software engineering projects, apply programming and analytical skills, work on cloud and big data platforms, participate in agile development, and gain exposure to real business situations.",
+    "qualifications": "Currently pursuing a Bachelor's degree in Computer Science, Engineering, AI/ML, Cybersecurity, or related IT discipline; graduating in June 2026; strong programming and problem-solving skills; ability to work in a global team environment.",
+    "salary": "5-13 LPA"
+  },
+  {
     "id": "9",
     "title": "Software Development Engineer - 2025 Freshers",
     "jobType": "Full-time",
@@ -11,7 +25,7 @@
     "category": "Software Development",
     "responsibilities": "Collaborate with teams to design, develop, and maintain scalable applications. Work on frontend, backend, mobile, or AI/ML projects. Participate in code reviews, debugging, and deployment processes. Engage in real-world projects under mentorship and continuously upskill in emerging technologies.",
     "qualifications": "B.Tech 2025 graduates in Computer Science, IT, ECE, EEE, or related fields with computer science coursework. Strong programming knowledge in frontend/backend/mobile/AI/ML stacks such as Angular, React.js, .NET, Node.js, Java, Flutter, or related technologies. Internship/project experience preferred. Strong problem-solving, communication, and teamwork skills.",
-    "salary": "10-15 LPA"
+    "salary": "3-5 LPA"
   },
   {
     "id": "21596",
