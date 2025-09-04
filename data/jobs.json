@@ -1,5 +1,19 @@
 [
   {
+    "id": "8",
+    "title": "Software Engineer Intern",
+    "jobType": "Internship",
+    "companyName": "Stripe",
+    "skills": ["Java", "Ruby", "JavaScript", "Scala", "Go", "Systems Design", "Testing"],
+    "locations": ["Bengaluru, India"],
+    "description": "Work on meaningful real-world projects at Stripe that directly impact global commerce. Gain hands-on experience with multiple technologies, systems design, testing, and contribute to products that grow the GDP of the internet.",
+    "applyLink": "https://stripe.com/jobs",
+    "category": "Software Development",
+    "responsibilities": "Write production-level software, participate in code reviews and design discussions, collaborate with engineers and cross-functional teams, learn quickly by asking questions, and ship impactful projects.",
+    "qualifications": "Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Math, or related field; strong CS fundamentals; programming experience in Java, Ruby, JavaScript, Scala, or Go; ability to work in teams and learn new systems.",
+    "salary": "6-8 LPA"
+  },
+  {
     "id": "313944",
     "title": "Software Engineer Intern",
     "jobType": "Internship",
