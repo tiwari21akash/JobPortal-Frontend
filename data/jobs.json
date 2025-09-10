@@ -1,18 +1,19 @@
 [
+
     {
-    "id": "9",
-    "title": "Graduate Engineer Trainee",
-    "jobType": "Full Time",
-    "companyName": "Reliance Jio",
-    "skills": ["4G", "3G", "2G Networks", "Network Deployment", "Troubleshooting", "Performance Analysis", "Communication", "Analytical Skills"],
-    "locations": ["Mumbai, India"],
-    "description": "As a Graduate Engineer Trainee at Reliance Jio, you will work on designing and engineering international networks, validating technical requirements for global roaming, troubleshooting network performance, and contributing to network deployment and upgrades.",
-    "applyLink": "https://careers.jio.com/frmjobdescription.aspx?JBTITLE=8aHFXLUMHL2H6fZ43VNyOg==&jbID=JjlP5zIY5RZF/TISLyf4SQ==&funcCode=tBOU2f2ubJIKJJaEorlljoC0jBhJb9cLpWXiiP5HyBU=",
-    "category": "Engineering & Technology",
-    "responsibilities": "Design and plan international networks, coordinate with device and product teams for roaming capabilities, validate requirements for authentication, billing, and provisioning, support proposals for network deployments, analyze and troubleshoot network issues, and recommend improvements.",
-    "qualifications": "B.E./B.Tech in a relevant field. Freshers are eligible.",
-    "salary": "10-15 LPA"
-  },
+      "id": "9",
+      "title": "Graduate Engineer Trainee",
+      "jobType": "Full Time",
+      "companyName": "Reliance Jio",
+      "skills": ["4G", "3G", "2G Networks", "Network Deployment", "Troubleshooting", "Performance Analysis", "Communication", "Analytical Skills"],
+      "locations": ["Mumbai, India"],
+      "description": "As a Graduate Engineer Trainee at Reliance Jio, you will work on designing and engineering international networks, validating technical requirements for global roaming, troubleshooting network performance, and contributing to network deployment and upgrades.",
+      "applyLink": "https://careers.jio.com/frmjobdescription.aspx?JBTITLE=8aHFXLUMHL2H6fZ43VNyOg==&jbID=JjlP5zIY5RZF/TISLyf4SQ==&funcCode=tBOU2f2ubJIKJJaEorlljoC0jBhJb9cLpWXiiP5HyBU=",
+      "category": "Engineering & Technology",
+      "responsibilities": "Design and plan international networks, coordinate with device and product teams for roaming capabilities, validate requirements for authentication, billing, and provisioning, support proposals for network deployments, analyze and troubleshoot network issues, and recommend improvements.",
+      "qualifications": "B.E./B.Tech in a relevant field. Freshers are eligible.",
+      "salary": "10-15 LPA"
+    },
   {
     "id": "6230907",
     "title": "Software Engineer Intern",
