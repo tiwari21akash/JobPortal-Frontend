@@ -1,5 +1,18 @@
 [
-
+  {
+    "id": "10",
+    "title": "Software Engineer I",
+    "jobType": "Full Time",
+    "companyName": "Honeywell",
+    "skills": ["Java", "C#", "Python", "Software Development", "Debugging", "Code Review", "Problem Solving", "Analytical Skills"],
+    "locations": ["Bengaluru, Karnataka, India"],
+    "description": "As a Software Engineer I at Honeywell, you will play a crucial role in developing and maintaining software solutions across industries. You will collaborate with cross-functional teams, design and implement applications, troubleshoot issues, and ensure adherence to coding standards.",
+    "applyLink": "https://careers.honeywell.com",
+    "category": "Engineering",
+    "responsibilities": "Develop and maintain software applications, collaborate with teams to deliver solutions, design and implement customer-focused systems, troubleshoot and debug issues, and conduct code reviews to ensure best practices.",
+    "qualifications": "Bachelor’s degree in Computer Science, Engineering, or related technical discipline. Experience in software development and proficiency in Java, C#, or Python.",
+    "salary": "6-7 LPA"
+  }
     {
       "id": "9",
       "title": "Graduate Engineer Trainee",
@@ -12,7 +25,7 @@
       "category": "Engineering & Technology",
       "responsibilities": "Design and plan international networks, coordinate with device and product teams for roaming capabilities, validate requirements for authentication, billing, and provisioning, support proposals for network deployments, analyze and troubleshoot network issues, and recommend improvements.",
       "qualifications": "B.E./B.Tech in a relevant field. Freshers are eligible.",
-      "salary": "10-15 LPA"
+      "salary": "4-6 LPA"
     },
   {
     "id": "6230907",
