@@ -1,5 +1,33 @@
 [
   {
+    "id": "47601",
+    "title": "Software Engineer",
+    "jobType": "Full Time",
+    "companyName": "Principal",
+    "skills": ["Java", "System Design", "Analytical Skills", "Problem Solving", "Code Review", "Communication"],
+    "locations": ["Pune, India (Hybrid: Minimum 3 days in office)"],
+    "description": "As a Software Engineer at Principal, you will be responsible for impact analysis, software development, unit and integration testing, peer reviews, and ensuring the delivery of high-quality applications in a hybrid work environment.",
+    "applyLink": "https://careers.principal.com/in/jobs/47601?lang=en-us&iis=Job+Board&iisn=Linkedin",
+    "category": "Engineering & Technology",
+    "responsibilities": "Carry out impact analysis, develop and modify code, perform unit and integration testing, document results, conduct peer reviews, report progress, and escalate risks or issues when needed.",
+    "qualifications": "Bachelor’s degree, preferably in Computer Science or related field. Strong analytical, reasoning, and communication skills.",
+    "salary": "10-15 LPA"
+  },
+  {
+    "id": "10",
+    "title": "Software Engineer I",
+    "jobType": "Full Time",
+    "companyName": "Honeywell",
+    "skills": ["Java", "C#", "Python", "Software Development", "Debugging", "Code Review", "Problem Solving", "Analytical Skills"],
+    "locations": ["Bengaluru, Karnataka, India"],
+    "description": "As a Software Engineer I at Honeywell, you will play a crucial role in developing and maintaining software solutions across industries. You will collaborate with cross-functional teams, design and implement applications, troubleshoot issues, and ensure adherence to coding standards.",
+    "applyLink": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/113637/?utm_medium=jobshare&utm_source=External+Job+Share",
+    "category": "Engineering",
+    "responsibilities": "Develop and maintain software applications, collaborate with teams to deliver solutions, design and implement customer-focused systems, troubleshoot and debug issues, and conduct code reviews to ensure best practices.",
+    "qualifications": "Bachelor’s degree in Computer Science, Engineering, or related technical discipline. Experience in software development and proficiency in Java, C#, or Python.",
+    "salary": "6-7 LPA"
+  },
+  {
     "id": "9",
     "title": "Graduate Engineer Trainee",
     "jobType": "Full Time",
